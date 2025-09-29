@@ -128,7 +128,7 @@ final_project_46-52-53-54/
 │   │       ├── Pagination.tsx   # Пагінація
 │   │       └── Product.tsx      # Картка товару
 │   ├── data/
-│   │   ├── db.json             # Локальна копія товарів
+│   │   ├── mockData.ts         # Початкові дані та константи
 │   │   └── mockData.ts         # Константи та моки
 │   ├── hooks/
 │   │   ├── useAdd.ts           # Хук додавання
