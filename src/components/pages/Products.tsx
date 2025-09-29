@@ -3,7 +3,7 @@ import { API_ITEMS_PER_PAGE_LIMIT, createUrl } from '../../utils/mockapi'
 import Product from '../products/Product'
 import AddProduct from '../products/AddProduct'
 import { debounce } from '../../utils/debounce'
-import { ORDER_LIST, SORT_BY_LIST } from '../../data/mockData'
+import { ORDER_LIST, SORT_BY_LIST, PRODUCT_CATEGORIES } from '../../data/mockData'
 import { MdRefresh } from 'react-icons/md'
 import SelectField from '../form/SelectField'
 import { useDispatch, useSelector } from 'react-redux'
@@ -22,6 +22,7 @@ import Pagination from '../products/Pagination'
 const Products = () => {
   const [page, setPage] = useState(1)
   const [name, setName] = useState('')
+  const [category, setCategory] = useState('')
   const [sort, setSort] = useState('')
   const [order, setOrder] = useState('asc')
   const [reload, setReload] = useState('0')
@@ -39,13 +40,14 @@ const Products = () => {
   const totalPages = Math.ceil(totalProducts / API_ITEMS_PER_PAGE_LIMIT)
 
   useEffect(() => {
-    dispatch(fetchAllProducts(createUrl(page, name, sort, order)))
-  }, [dispatch, page, name, sort, order, reload])
+    dispatch(fetchAllProducts(createUrl(page, name, sort, order, category)))
+  }, [dispatch, page, name, sort, order, reload, category])
 
   const debouncedSetName = debounce(setName, 1000)
 
   const resetFilters = () => {
     setName('')
+    setCategory('')
     setSort('')
     setOrder('asc')
     setPage(1)
@@ -72,6 +74,13 @@ const Products = () => {
             onChange={(e) => debouncedSetName(e.target.value)}
           />
         </div>
+        <SelectField
+          id="category"
+          value={category}
+          label="Category"
+          options={[{ value: '', text: 'All Categories' }, ...PRODUCT_CATEGORIES]}
+          onChangeSelect={(e) => setCategory(e.target.value)}
+        />
         <SelectField
           id="sort"
           value={sort}

@@ -6,6 +6,7 @@ export function createUrl(
   name: string,
   sort: string,
   order: string,
+  category: string = '',
   limit: number | string = API_ITEMS_PER_PAGE_LIMIT
 ): string {
   const urlObject = new URL(API_URL)
@@ -15,7 +16,9 @@ export function createUrl(
   urlObject.searchParams.set('sortBy', `${sort}`)
   urlObject.searchParams.set('order', `${order}`)
 
-  console.log(urlObject)
+  if (category) {
+    urlObject.searchParams.set('category', `${category}`)
+  }
 
   return urlObject.toString()
 }

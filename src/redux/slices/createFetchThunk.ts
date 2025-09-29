@@ -21,7 +21,7 @@ export function createFetchThunk<T>(typePrefix: string) {
         return { data: response.data, totalCount }
       } catch (error) {
         const axiosError = error as AxiosError
-        console.log('Fetch error: ', axiosError.message)
+
         return rejectWithValue(axiosError.message || 'An unknown error occurred')
       }
     }

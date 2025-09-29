@@ -19,7 +19,6 @@ const useFetch = <T>(url: string, limit?: number, reload?: string): UseFetchResu
       setIsLoading(true)
       setError(null)
 
-      console.log(url)
       try {
         const response = await axios.get<T[]>(url, {
           params: {
@@ -35,7 +34,7 @@ const useFetch = <T>(url: string, limit?: number, reload?: string): UseFetchResu
         setData(response.data)
       } catch (error) {
         if (axios.isCancel(error)) {
-          console.log('Request cancelled:', error.message)
+          // Request was cancelled, do nothing
         } else {
           setError(`Error fetching data: ${(error as Error).message}`)
         }

@@ -20,8 +20,7 @@ const EditProduct = ({ children, product, reload }: EditProductProps) => {
 
   const handleSubmit = async (product: Partial<ProductInterface>) => {
     try {
-      const updatedProduct = await update(product)
-      console.log(updatedProduct)
+      await update(product)
       handleClose()
       reload()
     } catch (error) {

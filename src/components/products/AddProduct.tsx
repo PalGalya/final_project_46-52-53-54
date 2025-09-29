@@ -15,9 +15,9 @@ const AddProduct = () => {
 
   const handleSubmit = async (product: Partial<ProductInterface>) => {
     try {
-      const newProduct = await add(product)
-      console.log(newProduct)
+      await add(product)
       handleClose()
+      window.location.reload()
     } catch (error) {
       console.error(error)
     }
