@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1",
+    "name": "MacBook Air M2 13-inch",
+    "description": "Легкий та потужний ноутбук із процесором Apple M2 та 8-ядерним GPU",
+    "price": 1299,
+    "image": "https://picsum.photos/640/480?sig=1",
+    "category": "Laptops"
+  },
+  {
+    "id": "2",
+    "name": "Gaming PC Ryzen 7 5800X",
+    "description": "Ігровий комп'ютер з AMD Ryzen 7 5800X, RTX 3070, 16GB RAM",
+    "price": 1850,
+    "image": "https://picsum.photos/640/480?sig=2",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "3",
+    "name": "Samsung Odyssey G7 27-inch",
+    "description": "Ігровий монітор 1440p 240Hz з підтримкою G-Sync",
+    "price": 599,
+    "image": "https://picsum.photos/640/480?sig=3",
+    "category": "Monitors"
+  },
+  {
+    "id": "4",
+    "name": "ASUS ROG Strix RTX 4070 Ti",
+    "description": "Потужна відеокарта з 12GB GDDR6X пам'яттю та підтримкою Ray Tracing",
+    "price": 849,
+    "image": "https://picsum.photos/640/480?sig=4",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "5",
+    "name": "Razer DeathAdder V3 Pro",
+    "description": "Бездротова ігрова миша з сенсором Focus Pro 30K DPI",
+    "price": 149,
+    "image": "https://picsum.photos/640/480?sig=5",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "6",
+    "name": "Corsair K100 RGB Optical",
+    "description": "Механічна клавіатура з оптичними перемикачами та RGB підсвічуванням",
+    "price": 229,
+    "image": "https://picsum.photos/640/480?sig=6",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "7",
+    "name": "LG UltraWide 34WP65C-B",
+    "description": "34-дюймовий ультраширокий монітор з підтримкою HDR10",
+    "price": 449,
+    "image": "https://picsum.photos/640/480?sig=7",
+    "category": "Monitors"
+  },
+  {
+    "id": "8",
+    "name": "Intel Core i7-13700K Desktop",
+    "description": "Настільний комп'ютер з процесором Intel i7 13-го покоління",
+    "price": 1699,
+    "image": "https://picsum.photos/640/480?sig=8",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "9",
+    "name": "MacBook Pro 16-inch M3 Max",
+    "description": "Професійний ноутбук з чипом M3 Max та Liquid Retina XDR дисплеєм",
+    "price": 2999,
+    "image": "https://picsum.photos/640/480?sig=9",
+    "category": "Laptops"
+  },
+  {
+    "id": "10",
+    "name": "NVIDIA GeForce RTX 4080 Super",
+    "description": "Топова відеокарта з 16GB GDDR6X для 4K геймінгу",
+    "price": 1199,
+    "image": "https://picsum.photos/640/480?sig=10",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "11",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "description": "Бізнес-ноутбук з Intel Core i7, 16GB RAM та 1TB SSD",
+    "price": 1649,
+    "image": "https://picsum.photos/640/480?sig=11",
+    "category": "Laptops"
+  },
+  {
+    "id": "12",
+    "name": "Dell XPS Desktop 8960",
+    "description": "Компактний настільний ПК з Intel Core i7 та RTX 4060",
+    "price": 1399,
+    "image": "https://picsum.photos/640/480?sig=12",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "13",
+    "name": "ASUS ProArt Display PA278QV",
+    "description": "27-дюймовий професійний монітор з 100% sRGB покриттям",
+    "price": 329,
+    "image": "https://picsum.photos/640/480?sig=13",
+    "category": "Monitors"
+  },
+  {
+    "id": "14",
+    "name": "AMD Radeon RX 7800 XT",
+    "description": "Відеокарта AMD з 16GB пам'яті для 1440p геймінгу",
+    "price": 899,
+    "image": "https://picsum.photos/640/480?sig=14",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "15",
+    "name": "SteelSeries Rival 650 Wireless",
+    "description": "Ігрова миша з регульованою вагою та 256-зональним RGB",
+    "price": 89,
+    "image": "https://picsum.photos/640/480?sig=15",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "16",
+    "name": "Keychron K8 Pro",
+    "description": "Бездротова механічна клавіатура з hot-swap перемикачами",
+    "price": 139,
+    "image": "https://picsum.photos/640/480?sig=16",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "17",
+    "name": "HP Spectre x360 16",
+    "description": "Трансформер 2-в-1 з OLED дисплеєм та Intel Evo",
+    "price": 1599,
+    "image": "https://picsum.photos/640/480?sig=17",
+    "category": "Laptops"
+  },
+  {
+    "id": "18",
+    "name": "MSI MAG274QRF-QD",
+    "description": "27-дюймовий ігровий монітор з Quantum Dot технологією",
+    "price": 399,
+    "image": "https://picsum.photos/640/480?sig=18",
+    "category": "Monitors"
+  },
+  {
+    "id": "19",
+    "name": "Intel Arc A770 16GB",
+    "description": "Нова відеокарта Intel з 16GB пам'яті та AV1 підтримкою",
+    "price": 349,
+    "image": "https://picsum.photos/640/480?sig=19",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "20",
+    "name": "HyperX Cloud Alpha Wireless",
+    "description": "Бездротові ігрові навушники з 300-годинною батареєю",
+    "price": 199,
+    "image": "https://picsum.photos/640/480?sig=20",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "21",
+    "name": "ASUS ROG Zephyrus G16",
+    "description": "Ігровий ноутбук з RTX 4070 та 240Hz OLED дисплеєм",
+    "price": 2199,
+    "image": "https://picsum.photos/640/480?sig=21",
+    "category": "Laptops"
+  },
+  {
+    "id": "22",
+    "name": "Alienware Aurora R15",
+    "description": "Преміум ігровий десктоп з рідинним охолодженням",
+    "price": 2799,
+    "image": "https://picsum.photos/640/480?sig=22",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "23",
+    "name": "Dell S3422DWG",
+    "description": "34-дюймовий вигнутий ігровий монітор з 144Hz та FreeSync",
+    "price": 379,
+    "image": "https://picsum.photos/640/480?sig=23",
+    "category": "Monitors"
+  },
+  {
+    "id": "24",
+    "name": "MSI GeForce RTX 4060 Ti Gaming X",
+    "description": "Середній рівень GPU з 16GB VRAM та DLSS 3.0",
+    "price": 549,
+    "image": "https://picsum.photos/640/480?sig=24",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "25",
+    "name": "Logitech MX Master 3S",
+    "description": "Ергономічна миша для продуктивної роботи з 8K сенсором",
+    "price": 99,
+    "image": "https://picsum.photos/640/480?sig=25",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "26",
+    "name": "Apple Magic Keyboard",
+    "description": "Бездротова клавіатура з Touch ID та USB-C зарядкою",
+    "price": 179,
+    "image": "https://picsum.photos/640/480?sig=26",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "27",
+    "name": "Surface Laptop Studio 2",
+    "description": "Трансформер Microsoft з RTX 4060 та сенсорним екраном",
+    "price": 2399,
+    "image": "https://picsum.photos/640/480?sig=27",
+    "category": "Laptops"
+  },
+  {
+    "id": "28",
+    "name": "BenQ EX3203R",
+    "description": "32-дюймовий вигнутий монітор з HDR400 та FreeSync",
+    "price": 449,
+    "image": "https://picsum.photos/640/480?sig=28",
+    "category": "Monitors"
+  },
+  {
+    "id": "29",
+    "name": "AMD Ryzen 9 7950X Desktop",
+    "description": "Потужний настільний ПК з 16-ядерним процесором AMD",
+    "price": 2199,
+    "image": "https://picsum.photos/640/480?sig=29",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "30",
+    "name": "NVIDIA GeForce RTX 4070",
+    "description": "Відеокарта для 1440p геймінгу з 12GB GDDR6X",
+    "price": 599,
+    "image": "https://picsum.photos/640/480?sig=30",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "31",
+    "name": "MSI Katana 17",
+    "description": "Доступний ігровий ноутбук з RTX 4060 та 144Hz дисплеєм",
+    "price": 1199,
+    "image": "https://picsum.photos/640/480?sig=31",
+    "category": "Laptops"
+  },
+  {
+    "id": "32",
+    "name": "HP Pavilion Desktop TP01",
+    "description": "Сімейний настільний ПК з Intel Core i5 та інтегрованою графікою",
+    "price": 649,
+    "image": "https://picsum.photos/640/480?sig=32",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "33",
+    "name": "AOC CQ27G2",
+    "description": "27-дюймовий вигнутий монітор 1440p з FreeSync Premium",
+    "price": 199,
+    "image": "https://picsum.photos/640/480?sig=33",
+    "category": "Monitors"
+  },
+  {
+    "id": "34",
+    "name": "AMD Radeon RX 6700 XT",
+    "description": "Середня відеокарта з 12GB GDDR6 для 1440p ігор",
+    "price": 479,
+    "image": "https://picsum.photos/640/480?sig=34",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "35",
+    "name": "Corsair Scimitar Elite RGB",
+    "description": "MMO миша з 12 програмованими кнопками",
+    "price": 79,
+    "image": "https://picsum.photos/640/480?sig=35",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "36",
+    "name": "Razer BlackWidow V4 Pro",
+    "description": "Механічна клавіатура з програмованими макроклавішами",
+    "price": 229,
+    "image": "https://picsum.photos/640/480?sig=36",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "37",
+    "name": "Framework Laptop 16",
+    "description": "Модульний ноутбук з можливістю апгрейду компонентів",
+    "price": 1699,
+    "image": "https://picsum.photos/640/480?sig=37",
+    "category": "Laptops"
+  },
+  {
+    "id": "38",
+    "name": "ASUS ROG Swift PG32UQX",
+    "description": "32-дюймовий 4K монітор з Mini LED підсвічуванням",
+    "price": 2999,
+    "image": "https://picsum.photos/640/480?sig=38",
+    "category": "Monitors"
+  },
+  {
+    "id": "39",
+    "name": "Custom Workstation RTX A4000",
+    "description": "Робоча станція з професійною відеокартою RTX A4000",
+    "price": 3499,
+    "image": "https://picsum.photos/640/480?sig=39",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "40",
+    "name": "NVIDIA RTX A2000",
+    "description": "Професійна відеокарта для CAD та 3D моделювання",
+    "price": 549,
+    "image": "https://picsum.photos/640/480?sig=40",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "41",
+    "name": "Audio-Technica ATH-M50xBT2",
+    "description": "Професійні бездротові навушники для аудіофілів",
+    "price": 199,
+    "image": "https://picsum.photos/640/480?sig=41",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "42",
+    "name": "Blue Yeti X USB Microphone",
+    "description": "Професійний USB мікрофон для стрімінгу та подкастів",
+    "price": 169,
+    "image": "https://picsum.photos/640/480?sig=42",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "43",
+    "name": "Acer Predator Helios Neo 16",
+    "description": "Ігровий ноутбук з RTX 4060 та Intel Core i7-13700HX",
+    "price": 1399,
+    "image": "https://picsum.photos/640/480?sig=43",
+    "category": "Laptops"
+  },
+  {
+    "id": "44",
+    "name": "Samsung Odyssey Neo G9",
+    "description": "49-дюймовий супер ультраширокий ігровий монітор з Mini LED",
+    "price": 1699,
+    "image": "https://picsum.photos/640/480?sig=44",
+    "category": "Monitors"
+  },
+  {
+    "id": "45",
+    "name": "Origin PC Chronos",
+    "description": "Преміум ігровий ПК з кастомним рідинним охолодженням",
+    "price": 4999,
+    "image": "https://picsum.photos/640/480?sig=45",
+    "category": "Desktops and All-in-Ones"
+  },
+  {
+    "id": "46",
+    "name": "EVGA GeForce RTX 4090 FTW3",
+    "description": "Найпотужніша відеокарта з 24GB GDDR6X для 8K геймінгу",
+    "price": 1899,
+    "image": "https://picsum.photos/640/480?sig=46",
+    "category": "Graphics Cards"
+  },
+  {
+    "id": "47",
+    "name": "Elgato Stream Deck XL",
+    "description": "Панель керування з 32 LCD клавішами для стрімерів",
+    "price": 249,
+    "image": "https://picsum.photos/640/480?sig=47",
+    "category": "Accessories and Peripherals"
+  },
+  {
+    "id": "48",
+    "name": "Razer Blade 18",
+    "description": "Топовий ігровий ноутбук з RTX 4090 та 18-дюймовим QHD+ екраном",
+    "price": 3999,
+    "image": "https://picsum.photos/640/480?sig=48",
+    "category": "Laptops"
+  },
+  {
+    "id": "49",
+    "name": "LG 27GR95QE-B OLED",
+    "description": "27-дюймовий OLED ігровий монітор з 240Hz та 0.03ms",
+    "price": 999,
+    "image": "https://picsum.photos/640/480?sig=49",
+    "category": "Monitors"
+  },
+  {
+    "id": "50",
+    "name": "NZXT BLD H7 Elite",
+    "description": "Зібраний ігровий ПК преміум класу з RGB підсвічуванням",
+    "price": 3299,
+    "image": "https://picsum.photos/640/480?sig=50",
+    "category": "Desktops and All-in-Ones"
+  }
+]
